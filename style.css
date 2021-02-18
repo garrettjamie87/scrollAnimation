@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #efedd6;
+  background-color: #eaffd0;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -16,4 +16,18 @@ body {
 
 h1 {
   margin: 10px;
+  color:#ff75a0
+}
+
+.box{
+  background-color:#fce38a;
+  color:#ff75a0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
 }
