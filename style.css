@@ -34,10 +34,14 @@ h1 {
   transition: transform 0.4 ease;
 }
 
-.box:nth-last-of-type(even){
+.box:nth-of-type(even){
   transform: translateX(-400%);
 }
 
 .box.show {
   transform: translateX(0);
+}
+
+.box h2 {
+  font-size: 45px;
 }
